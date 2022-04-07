@@ -1,5 +1,5 @@
-const hamburgherMenù = document.querySelector('.hamburger-menu');
-console.log(hamburgherMenù.classList);
+const hamburgherMenu = document.querySelector('.hamburger-menu');
+console.log(hamburgherMenu.classList);
 
 const iconaDaCliccare = document.querySelector('.header-right > a')
 console.log(iconaDaCliccare.classList);
@@ -8,9 +8,9 @@ const crocettaDaCliccare = document.querySelector('a.close');
 console.log(crocettaDaCliccare.classList);
 
 iconaDaCliccare.addEventListener('click', function(){
-    hamburgherMenù.classList.add('active');
+    hamburgherMenu.classList.add('active');
 });
 
 crocettaDaCliccare.addEventListener('click', function(){
-    hamburgherMenù.classList.remove('active');
+    hamburgherMenu.classList.remove('active');
 });
